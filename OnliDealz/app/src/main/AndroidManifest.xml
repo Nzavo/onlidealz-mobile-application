@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.OnliDealz">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/online"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".supplier.PaymentNotification"
+            android:exported="false"
+            android:parentActivityName=".supplier.SupplierDash"/>
+        <activity
+            android:name=".finance.SupplierPayment"
+            android:exported="false"
+            android:parentActivityName=".finance.FinanceDash" />
+        <activity
+            android:name=".finance.FiannceRate"
+            android:exported="false"
+            android:parentActivityName=".finance.FinanceDash" />
+        <activity
+            android:name=".manager.SafariYaPembe"
+            android:exported="false"
+            android:parentActivityName=".manager.ManagerDash" />
+        <activity
+            android:name=".customer.PaymentHistory"
+            android:exported="false"
+            android:parentActivityName=".customer.CustDash" />
+        <activity
+            android:name=".manager.CustomerRating"
+            android:exported="false"
+            android:parentActivityName=".manager.ManagerDash" />
+        <activity
+            android:name=".customer.MyDelivery"
+            android:exported="false"
+            android:parentActivityName=".customer.CustDash" />
+        <activity
+            android:name=".manager.CustomerReview"
+            android:exported="false"
+            android:parentActivityName=".manager.ManagerDash" />
+        <activity
+            android:name=".manager.MgrHist"
+            android:exported="false" />
+        <activity
+            android:name=".customer.ProductView"
+            android:exported="false"
+            android:parentActivityName=".customer.CustDash" />
+        <activity
+            android:name=".manager.Delivery"
+            android:exported="false" />
+        <activity
+            android:name=".manager.Stocked"
+            android:exported="false" />
+        <activity
+            android:name=".manager.Tenders"
+            android:exported="false" />
+        <activity
+            android:name=".finance.Account"
+            android:exported="false" />
+        <activity
+            android:name=".supplier.Payment"
+            android:exported="false" />
+        <activity
+            android:name=".supplier.SuppHist"
+            android:exported="false" />
+        <activity
+            android:name=".driver.DriveHist"
+            android:exported="false" />
+        <activity
+            android:name=".customer.Receipt"
+            android:exported="false" />
+        <activity
+            android:name=".customer.Orders"
+            android:exported="false" />
+        <activity
+            android:name=".customer.Cart"
+            android:exported="false" />
+        <activity
+            android:name=".supplier.SupplierDash"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".manager.ManagerDash"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".finance.FinanceDash"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".driver.DriverDash"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".customer.CustDash"
+            android:configChanges="orientation"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

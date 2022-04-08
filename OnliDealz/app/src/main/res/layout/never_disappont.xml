@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15sp"
+    android:background="#DDCFCF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:id="@+id/nig"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+            <com.example.OnliDealz.Black.Lineage
+                android:id="@+id/quality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rating Out Of 5 Stars"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/qualityRating"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/quality"
+                android:isIndicator="true" />
+            </LinearLayout>
+            </HorizontalScrollView>
+
+            <EditText
+                android:id="@+id/neverDisappoint"
+                android:layout_below="@+id/nig"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="type some reply message" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
+

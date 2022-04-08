@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15sp"
+    android:background="#DDCFCF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/texting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#CA3505"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/myQuantity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Quantity"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/texting"
+                android:inputType="number"
+                android:maxLength="5" />
+
+            <TextView
+                android:id="@+id/ErrorChecker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/myQuantity"
+                android:text="Yes"
+                android:textColor="#F40404"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ErrorChecker"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10sp"
+                android:background="#fff"
+                android:drawableLeft="@drawable/mycart"
+                android:text=" Add to Cart "
+                android:textAllCaps="false" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
+

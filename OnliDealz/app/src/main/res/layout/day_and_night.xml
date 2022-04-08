@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:background="#DDCFCF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imager"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="1sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/imager"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/white"
+            android:text="Description"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/priceTag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:text="Price"
+            android:textColor="#F30202"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/Quantt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/priceTag"
+            android:layout_marginLeft="102dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:text="Quant"
+            android:textColor="#F30202"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reviewing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Quantt"
+            android:layout_marginLeft="102dp"
+            android:text="Click to review \nAdd to Cart"
+            android:textColor="#04268C"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp">
+
+    <RatingBar
+        android:id="@+id/myRate"
+        android:layout_width="wrap_content"
+        android:numStars="5"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp" />
+
+    <EditText
+        android:id="@+id/myMessage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myRate"
+        android:hint="Add some comment below" />
+
+    <Button
+        android:id="@+id/Sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myMessage"
+        android:layout_centerHorizontal="true"
+        android:background="#0A4FC1"
+        android:text="  Send Feedback  "
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

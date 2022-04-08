@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable-v24/hello.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable-v24/serlector.xml" value="0.20462962962962963" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable/aste.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable/circle_product.xml" value="0.19814814814814816" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable/developer.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable/exit.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable/homer.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable/send.xml" value="0.17592592592592593" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable/sign.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/drawable/userr.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/absent.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_account.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_cart.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_cart_history.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_cust_dash.xml" value="0.25" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_customer_rating.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_customer_review.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_delivery.xml" value="0.25885416666666666" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_drive_hist.xml" value="0.22" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_driver_dash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_fiannce_rate.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_fina_hist.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_finance_dash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_main.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_manager_dash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_mgr_hist.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_my_delivery.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_orders.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_payment.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_payment_history.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_product_view.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_receipt.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_safari_ya_pembe.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_splash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_stocked.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_supp_hist.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_supplier_dash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_supplier_payment.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/activity_tenders.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/bee_deli.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/chania.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/chuki.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/cust_reg.xml" value="0.25" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/day_and_night.xml" value="0.2" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/demo_mess.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/drive_reg.xml" value="0.25" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/edit_ngumu.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/ee_iko_fiti.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/eleventh_hr.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/emerge.xml" value="0.25" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/geneva.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/happy.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/hasira_zanini.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/inscribed.xml" value="0.25" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/lament.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/location.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/menem.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/mighty_sup.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/mpesa.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/named_man.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/never_disappont.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/new_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/payer.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/product.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/product_miner.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/rating.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/recycled.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/remove_cart.xml" value="0.22" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/reset.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/shipped.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/staff_reg.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/sup_reg.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/supp_die.xml" value="1.4967105263157894" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/supp_diehard.xml" value="0.25" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/tabular.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/temple.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/temple_b.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/temple_br.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/temple_k.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/temple_l.xml" value="0.22" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/true_gen.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/verify_prod.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/view_category.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/view_handle.xml" value="0.25" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/weak_man.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/layout/yako_ni_kesho.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/dash.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/driver.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/finance.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/hello.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/manager.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/owner.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/personal.xml" value="0.16574074074074074" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/supplier.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnliDealz/app/src/main/res/menu/user.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnlineDealz/app/src/main/res/drawable/about.xml" value="0.1527777777777778" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnlineDealz/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnlineDealz/app/src/main/res/layout/activity_splash.xml" value="0.1347517730496454" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnlineDealz/app/src/main/res/menu/menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/22MAY/AndroidStudioProjects/OnlineDealz/app/src/main/res/menu/owner.xml" value="0.27291666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

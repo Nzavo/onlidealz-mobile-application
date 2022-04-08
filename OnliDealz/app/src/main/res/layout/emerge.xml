@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="#bfee90"
+                android:maxWidth="320dp"
+                android:padding="5sp"
+                android:orientation="vertical"
+                android:minWidth="80dp"
+                android:minHeight="50dp">
+                <TextView
+                    android:id="@+id/textReceiver"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="320dp"
+                    android:minWidth="80dp"
+                    android:text="sema"
+                    android:textColor="#111" />
+                <RatingBar
+                    android:id="@+id/ratedCount"
+                    android:layout_width="wrap_content"
+                    android:isIndicator="true"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/quality" />
+
+                <TextView
+                    android:id="@+id/tetMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="320dp"
+                    android:minWidth="80dp"
+                    android:text="sema"
+                    android:textColor="#111" />
+
+                <TextView
+                    android:id="@+id/textDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/check"
+                    android:maxWidth="320dp"
+                    android:maxLength="16"
+                    android:minWidth="80dp"
+                    android:text="sema"
+                    android:textColor="#111" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/layout_email"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="4sp"
+                android:background="#D3D3D3"
+                android:padding="5sp"
+                android:maxWidth="320dp"
+                android:orientation="vertical"
+                android:minWidth="80dp"
+                android:minHeight="50dp">
+                <TextView
+                    android:id="@+id/textReply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="320dp"
+                    android:minWidth="80dp"
+                    android:text="sema"
+                    android:textColor="#111" />
+
+                <TextView
+                    android:id="@+id/textRepliedMess"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="320dp"
+                    android:minWidth="80dp"
+                    android:text="sema"
+                    android:textColor="#111" />
+
+                <TextView
+                    android:id="@+id/textRplyDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxWidth="320dp"
+                    android:maxLength="16"
+                    android:minWidth="80dp"
+                    android:text="sema"
+                    android:textColor="#111" />
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

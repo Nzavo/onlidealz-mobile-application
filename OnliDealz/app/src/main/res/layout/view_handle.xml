@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5sp"
+    android:background="#DDCFCF"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imagery"
+            android:layout_width="fill_parent"
+            android:layout_height="350dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/totalDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imagery"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/white"
+            android:text="Description"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/totalDesc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/white"
+            android:text="Price"
+            android:textColor="#04268C"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBuyNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itemPrice"
+            android:layout_centerHorizontal="true"
+            android:background="#fff"
+            android:drawableLeft="@drawable/mycart"
+            android:text=" Buy Now "
+            android:layout_marginLeft="2sp"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+</LinearLayout>
+
+

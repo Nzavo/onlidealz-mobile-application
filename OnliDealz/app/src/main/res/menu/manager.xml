@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homing"
+        android:icon="@drawable/homer"
+        android:title="Dashboard" />
+    <item
+        android:id="@+id/tender"
+        android:icon="@drawable/poster"
+        android:title="Orders" />
+    <item
+        android:id="@+id/delivery"
+        android:icon="@drawable/delivery"
+        android:title="Delivery" />
+    <!--<item
+        android:id="@+id/store"
+        android:icon="@drawable/store"
+        android:title="Stocked" />-->
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/history"
+        android:title="Stocked" />
+
+</menu>

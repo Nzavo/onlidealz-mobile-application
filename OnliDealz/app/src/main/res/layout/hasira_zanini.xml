@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15sp"
+    android:background="#DDCFCF"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <com.example.OnliDealz.Black.Lineage
+                android:id="@+id/quality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quality"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/qualityRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/quality" />
+
+            <TextView
+                android:id="@+id/txtQuality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/quality"
+                android:layout_alignBaseline="@+id/qualityRating"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:visibility="gone" />
+
+            <com.example.OnliDealz.Black.Lineage
+                android:id="@+id/Rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/qualityRating"
+                android:text="Rating"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/ratingRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Rating" />
+
+            <TextView
+                android:id="@+id/txtRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Rating"
+                android:layout_alignBaseline="@+id/qualityRating"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:visibility="gone" />
+
+            <com.example.OnliDealz.Black.Lineage
+                android:id="@+id/Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ratingRating"
+                android:text="Price"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/pricePrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Price" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Price"
+                android:layout_alignBaseline="@+id/pricePrice"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:visibility="gone" />
+
+            <com.example.OnliDealz.Black.Lineage
+                android:id="@+id/Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pricePrice"
+                android:text="Value"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/valueValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Value" />
+
+            <TextView
+                android:id="@+id/txtValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Value"
+                android:layout_alignBaseline="@+id/valueValue"
+                android:layout_alignParentRight="true"
+                android:text=""
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/ErrorChecker"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/valueValue"
+                android:text="Yes"
+                android:textColor="#F40404"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btnReviewUS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ErrorChecker"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10sp"
+                android:background="#fff"
+                android:drawableLeft="@drawable/senti"
+                android:text=" Submit Review "
+                android:textAllCaps="false" />
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".finance.Account">
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+    android:id="@+id/bottom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@color/backy"
+    app:itemBackground="@color/backy"
+    app:itemIconTint="@drawable/serlector"
+    app:itemTextColor="@drawable/serlector"
+    app:menu="@menu/finance" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/manned"
+        android:layout_below="@+id/bottom"
+        android:layout_height="wrap_content"
+        android:layout_margin="2sp">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp">
+
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center_horizontal"
+                    android:textColor="#0C24AE"
+                    android:text="Onlidealz Retail Company\nOFFICE: Ambank \nHouse,14th Floor, Nairobi, Kenya"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtname"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20sp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:text="name" />
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Print"
+    android:id="@+id/printThi"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_margin="5sp"/>
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/item"
+    android:layout_marginStart="5sp"
+    android:layout_marginEnd="5sp"
+    android:layout_marginBottom="5sp">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/myMPesa"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxWidth="74dp"
+            android:text="mpesa" />
+
+        <TextView
+            android:id="@+id/mySTatus"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxWidth="49dp"
+            android:text="status" />
+
+        <TextView
+            android:id="@+id/myCUstomer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Customer" />
+    </TableRow>
+
+</TableLayout>

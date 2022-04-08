@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#8E8181"
+    android:layout_margin="10sp"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/editCurrentCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editCurrentCity"
+        android:layout_marginTop="10sp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/enterArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Enter Area" />
+
+        <EditText
+            android:id="@+id/enterStreet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterArea"
+            android:layout_marginTop="5sp"
+            android:background="#fff"
+            android:hint="Your street" />
+
+        <EditText
+            android:id="@+id/enterHouse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterStreet"
+            android:layout_marginTop="5sp"
+            android:background="#fff"
+            android:hint="House/Apartment_no" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/btnNext"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/enterHouse"
+            android:layout_alignParentRight="true"
+            android:text="Next" />
+    </RelativeLayout>
+</RelativeLayout>

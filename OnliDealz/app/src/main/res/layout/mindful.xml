@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tble"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/rt"
+    android:layout_margin="5sp">
+
+    <TableRow android:padding="5dp">
+
+        <TextView
+            android:id="@+id/tcategory"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="CATEGORY" />
+
+        <TextView
+            android:id="@+id/massss"
+            android:layout_width="25dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="QTY" />
+
+        <TextView
+            android:id="@+id/mytprice"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="UNIT" />
+
+        <TextView
+            android:id="@+id/mytotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TOTAL" />
+    </TableRow>
+</TableLayout>

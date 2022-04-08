@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10sp">
+
+    <RadioGroup
+        android:id="@+id/radioType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#fff"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Check Product Type" />
+
+        <RadioButton
+            android:id="@+id/radioButtonPort"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Portable Wardrobe" />
+
+        <RadioButton
+            android:id="@+id/radioButtonClo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clocks" />
+
+        <RadioButton
+            android:id="@+id/radioButtonMos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mosquito Nets" />
+
+        <RadioButton
+            android:id="@+id/radioButtonBed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bedding" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/subPro"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioType"
+        android:background="@color/backy"
+        android:text="submit"
+        android:textColor="#fff" />
+
+</RelativeLayout>
